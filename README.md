@@ -70,7 +70,14 @@ This is a basic implementation of [Deep Convolutional Generative Adversarial Net
 ## Visual result
 
 ### mnist
+#### ground true
 ![avatar](https://github.com/Zehui-Lin/DCGAN/blob/master/mnist/ground_true_image.png)
+
+#### generating process
+![avatar](https://github.com/Zehui-Lin/DCGAN/blob/master/mnist/dcgan.gif)
+
+#### final generated result
+![avatar](https://github.com/Zehui-Lin/DCGAN/blob/master/mnist/final.png)
 
 
 
