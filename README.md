@@ -70,9 +70,7 @@ This is a basic implementation of [Deep Convolutional Generative Adversarial Net
 ## Visual result
 
 ### mnist
-![avatar](./mnist/ground_true_image.png)
-![avatar](./mnist/dcgan.gif)
-![avatar](./mnist/final.png)
+![avatar](https://github.com/Zehui-Lin/DCGAN/blob/master/mnist/ground_true_image.png)
 
 
 
