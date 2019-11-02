@@ -71,14 +71,16 @@ This is a basic implementation of [Deep Convolutional Generative Adversarial Net
 
 ### mnist
 #### ground true
-![avatar](https://github.com/Zehui-Lin/DCGAN/blob/master/mnist/ground_true_image.png)
+![avatar](./mnist/ground_true_image.png)
 
 #### generating process
-![avatar](https://github.com/Zehui-Lin/DCGAN/blob/master/mnist/dcgan.gif)
+![avatar](./mnist/dcgan.gif)
 
 #### final generated result
-![avatar](https://github.com/Zehui-Lin/DCGAN/blob/master/mnist/final.png)
+![avatar](./mnist/final.png)
 
 
 
-## Liscense
+## LICENSE
+
+The code is under Apache-2.0 License.
