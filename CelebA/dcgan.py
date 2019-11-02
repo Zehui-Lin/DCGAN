@@ -46,7 +46,7 @@ def prepare_for_training(ds, cache=True, shuffle_buff_size=BUFFER_SIZE):
             ds = ds.cache(cache)
         else:
             ds = ds.cache()
-    ds = ds.shuffle(buffer_size=shuffle_buff_size)
+    #ds = ds.shuffle(buffer_size=shuffle_buff_size) #not necessary
 
     #Repeat forever
     ds = ds.repeat()
