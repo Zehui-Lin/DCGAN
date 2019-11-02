@@ -1,7 +1,7 @@
 # DCGAN
 ## The implementation of Deep Convolutional Generative Adversarial Network (DCGAN)
 
-This is a basic implementation of [Deep Convolutional Generative Adversarial Network (DCGAN)](https://arxiv.org/pdf/1511.06434.pdf). The code mainly refers to the [TensorFlow Tutorials](https://tensorflow.google.cn/tutorials/generative/dcgan) in [`tensorflow/docs`](https://github.com/tensorflow/docs). Two datasets mnist and Large-scale Celeb Faces Attributes ([CelebA](https://www.kaggle.com/jessicali9530/celeba-dataset))were used.
+This is a basic implementation of [Deep Convolutional Generative Adversarial Network (DCGAN)](https://arxiv.org/pdf/1511.06434.pdf). The code mainly refers to the [TensorFlow Tutorials](https://tensorflow.google.cn/tutorials/generative/dcgan) in [`tensorflow/docs`](https://github.com/tensorflow/docs). Two datasets mnist and Large-scale Celeb Faces Attributes ([CelebA](https://www.kaggle.com/jessicali9530/celeba-dataset)) were used.
 
 
 ## There are some differences in the newotk architecture that implements these two data sets
@@ -12,7 +12,7 @@ This is a basic implementation of [Deep Convolutional Generative Adversarial Net
 
     Input:(batch_size, 100)
 
-    Dense(7*7*256), BatchNormalization(), LeakyReLU()
+    Dense(7\*7\*256), BatchNormalization(), LeakyReLU()
 
     Reshape to (7, 7, 256)
 
@@ -26,7 +26,7 @@ This is a basic implementation of [Deep Convolutional Generative Adversarial Net
 
     Input:(batch_size, 500)
 
-    Dense(16*16*256), BatchNormalization(), LeakyReLU()
+    Dense(16\*16\*256), BatchNormalization(), LeakyReLU()
 
     Reshape to (16, 16, 256)
 
@@ -67,7 +67,13 @@ This is a basic implementation of [Deep Convolutional Generative Adversarial Net
     Dense(1)
 
 
-## Visualize R
+## Visual result
+
+### mnist
+![avatar](./mnist/ground_true_image.png)
+![avatar](./mnist/dcgan.gif)
+![avatar](./mnist/final.png)
+
 
 
 ## Liscense

@@ -49,7 +49,9 @@ def prepare_for_training(ds, cache=True, shuffle_buff_size=BUFFER_SIZE):
     #ds = ds.shuffle(buffer_size=shuffle_buff_size) #not necessary
 
     #Repeat forever
-    ds = ds.repeat()
+    # ds = ds.repeat()
+
+    ds = ds.apply(tf.data.experimental.shuffle_and_repeat(buffer_size=shuffle_buff_size))
 
     ds = ds.batch(BATCH_SIZE)
 
