@@ -68,3 +68,6 @@ This is a basic implementation of [Deep Convolutional Generative Adversarial Net
 
 
 ##### Visualize R
+
+
+##### Liscense
