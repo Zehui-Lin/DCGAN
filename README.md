@@ -1,10 +1,10 @@
 # DCGAN
-##### The implementation of Deep Convolutional Generative Adversarial Network (DCGAN)
+## The implementation of Deep Convolutional Generative Adversarial Network (DCGAN)
 
 This is a basic implementation of [Deep Convolutional Generative Adversarial Network (DCGAN)](https://arxiv.org/pdf/1511.06434.pdf). The code mainly refers to the [TensorFlow Tutorials](https://tensorflow.google.cn/tutorials/generative/dcgan) in [`tensorflow/docs`](https://github.com/tensorflow/docs). Two datasets mnist and Large-scale Celeb Faces Attributes ([CelebA](https://www.kaggle.com/jessicali9530/celeba-dataset))were used.
 
 
-##### There are some differences in the newotk architecture that implements these two data sets
+## There are some differences in the newotk architecture that implements these two data sets
 
 * Generator
 
@@ -67,7 +67,7 @@ This is a basic implementation of [Deep Convolutional Generative Adversarial Net
     Dense(1)
 
 
-##### Visualize R
+## Visualize R
 
 
-##### Liscense
+## Liscense
