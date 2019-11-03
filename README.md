@@ -149,24 +149,24 @@ The detail can be seem in the code.
 
 ### mnist
 #### ground true
-![avatar](./mnist/ground_true_image.png)
+![avatar](https://github.com/Zehui-Lin/DCGAN/blob/master/mnist/ground_true_image.png)
 
 #### generating process
-![avatar](./mnist/dcgan.gif)
+![avatar](https://github.com/Zehui-Lin/DCGAN/blob/master/mnist/dcgan.gif)
 
 #### final generated result
-![avatar](./mnist/final.png)
+![avatar](https://github.com/Zehui-Lin/DCGAN/blob/master/mnist/final.png)
 
 
 ### CelebA
 #### ground true
-![avatar](./CelebA/ground_true_image.png)
+![avatar](https://github.com/Zehui-Lin/DCGAN/blob/master/CelebA/ground_true_image.png)
 
 #### generating process
-![avatar](./CelebA/dcgan.gif)
+![avatar](https://github.com/Zehui-Lin/DCGAN/blob/master/CelebA/dcgan.gif)
 
 #### final generated result
-![avatar](./CelebA/final.png)
+![avatar](https://github.com/Zehui-Lin/DCGAN/blob/master/CelebA/final.png)
 
 
 
